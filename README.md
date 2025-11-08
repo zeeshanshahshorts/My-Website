@@ -1,27 +1,41 @@
 # 🎬 Mr. Zee Editz | Official AMV Portfolio
 
 Welcome to the **official website of Mr. Zee Editz** — where anime meets cinematic rhythm 🎧  
-I create **high-energy AMVs (Anime Music Videos)** filled with emotion, timing, and style.
+I create **high-energy AMVs (Anime Music Videos)** filled with emotion, precision, and visual impact.
 
 ![Banner](https://i.imgur.com/21da6af1a11272715f67c3d5ccac4941.jpg)
 
 ---
 
-## 🚀 Website Overview
-This portfolio showcases my **best AMVs**, current **updates**, and a little about me as a creator.  
-It’s built with **pure HTML + CSS**, lightweight, and mobile-friendly — perfect for viewers on any device.
+## 🌐 Live Website
+🔗 **[Visit Now → mrzeeeditz.github.io](https://mrzeeeditz.github.io)**  
 
-**🔗 Live Website:** [mrzeeeditz.github.io](https://mrzeeeditz.github.io)
+Your one-stop hub for all my AMVs, updates, and creative news.
 
 ---
 
 ## 🧩 Features
 
-- ⚡ **Responsive Design** – Works perfectly on mobile, tablet, and desktop.  
-- 🎥 **Featured AMVs Section** – Watch my latest YouTube edits directly from the site.  
-- 📰 **Updates/Announcements** – Regular updates about my new projects and events.  
-- 💀 **Dark Cinematic Theme** – Inspired by anime vibes and energetic visual editing.  
-- 🧠 **SEO Optimized** – Fast loading and search-engine friendly.
+- ⚡ **Responsive Design** – Perfect on mobile, tablet & PC  
+- 🎥 **Featured AMVs Section** – Direct YouTube embeds  
+- 📰 **Announcements Area** – Latest updates & project news  
+- 💀 **Dark Cinematic Theme** – Inspired by anime energy  
+- 🚀 **Fast Loading** – Lightweight, pure HTML + CSS  
+- 🔧 **Easy to Update** – Edit directly from GitHub anytime  
+
+---
+
+## 📰 Latest Announcements
+
+### 🔥 New AMV Dropping Soon!
+> My next **cinematic AMV** featuring *Demon Slayer x Gojo Satoru* is dropping this weekend!  
+> Stay tuned for the premiere — it’s going to be **epic** ⚔️  
+
+### ⚙️ Website Revamp Underway
+> I’m currently upgrading the site’s design — new pages, smoother animations, and a **creator’s blog** are coming soon.  
+
+### 🎧 AMV Editing Tips (Coming Soon)
+> Soon I’ll launch a new **“Behind The Edits”** section — where I’ll share AMV tips, sound sync tricks, and color grading secrets.  
 
 ---
 
@@ -29,31 +43,26 @@ It’s built with **pure HTML + CSS**, lightweight, and mobile-friendly — perf
 
 | Title | Watch Link |
 |-------|-------------|
-| **Mortals Funk AMV** | [Watch Here](https://youtu.be/0nXw4jvAg5Q) |
-| **Muzan Kibutsuji - Slay!** | [Watch Here](https://youtu.be/HSfR5BdUqKU) |
-| **Muzan Kibutsuji - Eeyuh!** | [Watch Here](https://youtu.be/11LHNC6OzjU) |
+| **Mortals Funk AMV** | [🎬 Watch Here](https://youtu.be/0nXw4jvAg5Q) |
+| **Muzan Kibutsuji – Slay!** | [🎬 Watch Here](https://youtu.be/HSfR5BdUqKU) |
+| **Muzan Kibutsuji – Eeyuh!** | [🎬 Watch Here](https://youtu.be/11LHNC6OzjU) |
 
 ---
 
-## 🧑‍💻 About Me
+## 🧠 About Me
 
-Hey there! I’m **Mr. Zee**, an AMV creator passionate about transforming anime moments into cinematic stories.  
-Each project I make blends **emotion, rhythm, and visual storytelling** — giving every scene new life.
+Hey there! I’m **Mr. Zee**, an AMV creator blending anime visuals with cinematic energy.  
+Every edit I create is built on **emotion, rhythm, and storytelling**.  
+My mission is to make every scene feel **alive** and unforgettable.  
 
-> “Every frame should feel alive.”
+> 🎭 “Emotion isn’t added — it’s crafted frame by frame.”
 
 ---
 
 ## ⚙️ Tech Used
 
-- **HTML5**
-- **CSS3**
-- **GitHub Pages (Hosting)**
+- **HTML5**  
+- **CSS3**  
+- **GitHub Pages** *(for hosting)*  
 
 ---
-
-## 🧱 How to Use / Customize
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/mrzeeeditz.github.io
