@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dream Achieved | Mr. Zee Editz</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: radial-gradient(circle at top, #0a0a0a 20%, #000000 100%);
+      color: #fff;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    header {
+      padding: 20px 0;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      color: #ff0055;
+      letter-spacing: 1px;
+    }
+
+    .hero {
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: url('https://i.imgur.com/dpMR6KQ.jpeg') center/cover no-repeat;
+      position: relative;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.65);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 800px;
+      padding: 20px;
+    }
+
+    .hero-content h2 {
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+      background: linear-gradient(90deg, #ff0055, #ff8800);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: glow 2s infinite alternate;
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #ff0055; }
+      to { text-shadow: 0 0 25px #ff8800; }
+    }
+
+    .hero-content p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #ccc;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      padding: 12px 25px;
+      background: linear-gradient(90deg, #ff0055, #ff6600);
+      color: white;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: 0.3s;
+      font-weight: 600;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      background: linear-gradient(90deg, #ff6600, #ff0055);
+    }
+
+    section {
+      max-width: 900px;
+      margin: 100px auto;
+      padding: 0 20px;
+    }
+
+    section h3 {
+      font-size: 2rem;
+      color: #ff0055;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 30px;
+      color: #888;
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: #ff0055;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>✨ Mr. Zee Editz ✨</h1>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>💫 Dream Achieved 💫</h2>
+      <p>
+        After days of hard work and sleepless nights, I’ve finally achieved something I’ve dreamed of for a long time — creating my own official website.  
+        This project isn’t just a site; it’s a part of my journey, my vision, and my growth as a creator.
+      </p>
+      <p>
+        Thank you to everyone who supported me — this is just the beginning of a new era.  
+        <strong>Welcome to the world of Mr. Zee Editz.</strong>
+      </p>
+      <a href="index.html" class="btn">⬅ Back to Home</a>
+    </div>
+  </section>
+
+  <section>
+    <h3>🌟 What’s Next?</h3>
+    <p>
+      Now that this dream is complete, I’m focusing on making the next chapter even greater.  
+      New AMVs, advanced effects, behind-the-scenes tutorials, and a creative studio page are coming soon.  
+      Stay tuned — the story continues.
+    </p>
+  </section>
+
+  <footer>
+    © 2025 Mr. Zee Editz — Dream. Create. Inspire.  
+    <br>
+    <a href="https://mrzeeeditz.github.io">Visit Full Website</a>
+  </footer>
+
+</body>
+</html>
