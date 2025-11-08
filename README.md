@@ -1,345 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mr. Zee Editz | Official AMV Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
-  <style>
-    :root {
-      --primary: #00bfff;
-      --bg-dark: #000;
-      --bg-mid: #0a0a0a;
-      --text-light: #fff;
-      --text-fade: #bbb;
-    }
+# 🎬 Mr. Zee Editz | Official AMV Portfolio
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+Welcome to the **official website of Mr. Zee Editz** — where anime meets cinematic rhythm 🎧  
+I create **high-energy AMVs (Anime Music Videos)** filled with emotion, timing, and style.
 
-    body {
-      background: var(--bg-dark);
-      color: var(--text-light);
-      font-family: "Poppins", sans-serif;
-      scroll-behavior: smooth;
-      overflow-x: hidden;
-    }
+![Banner](https://i.imgur.com/21da6af1a11272715f67c3d5ccac4941.jpg)
 
-    /* ===== NAVBAR ===== */
-    nav {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background: rgba(0, 0, 0, 0.7);
-      backdrop-filter: blur(8px);
-      padding: 15px 40px;
-      z-index: 1000;
-      box-shadow: 0 0 15px rgba(0, 191, 255, 0.3);
-    }
+---
 
-    .logo {
-      font-size: 1.8rem;
-      font-weight: 600;
-      color: var(--primary);
-      letter-spacing: 1px;
-    }
+## 🚀 Website Overview
+This portfolio showcases my **best AMVs**, current **updates**, and a little about me as a creator.  
+It’s built with **pure HTML + CSS**, lightweight, and mobile-friendly — perfect for viewers on any device.
 
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 25px;
-    }
+**🔗 Live Website:** [mrzeeeditz.github.io](https://mrzeeeditz.github.io)
 
-    nav ul li a {
-      color: var(--text-light);
-      transition: 0.3s;
-      font-weight: 500;
-    }
+---
 
-    nav ul li a:hover {
-      color: var(--primary);
-    }
+## 🧩 Features
 
-    /* ===== HERO ===== */
-    #hero {
-      height: 100vh;
-      background: linear-gradient(to bottom, #000 40%, #020b1a 100%);
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      padding: 0 20px;
-    }
+- ⚡ **Responsive Design** – Works perfectly on mobile, tablet, and desktop.  
+- 🎥 **Featured AMVs Section** – Watch my latest YouTube edits directly from the site.  
+- 📰 **Updates/Announcements** – Regular updates about my new projects and events.  
+- 💀 **Dark Cinematic Theme** – Inspired by anime vibes and energetic visual editing.  
+- 🧠 **SEO Optimized** – Fast loading and search-engine friendly.
 
-    #hero h1 {
-      font-size: 3rem;
-      color: var(--primary);
-      text-shadow: 0 0 25px rgba(0, 191, 255, 0.5);
-      animation: fadeIn 2s ease;
-    }
+---
 
-    #hero p {
-      margin-top: 10px;
-      font-size: 1.2rem;
-      opacity: 0.85;
-      animation: fadeIn 3s ease;
-    }
+## 🎞️ Featured AMVs
 
-    .btn {
-      margin-top: 25px;
-      padding: 12px 30px;
-      border: 2px solid var(--primary);
-      border-radius: 8px;
-      color: var(--primary);
-      font-weight: 600;
-      transition: 0.3s;
-    }
+| Title | Watch Link |
+|-------|-------------|
+| **Mortals Funk AMV** | [Watch Here](https://youtu.be/0nXw4jvAg5Q) |
+| **Muzan Kibutsuji - Slay!** | [Watch Here](https://youtu.be/HSfR5BdUqKU) |
+| **Muzan Kibutsuji - Eeyuh!** | [Watch Here](https://youtu.be/11LHNC6OzjU) |
 
-    .btn:hover {
-      background: var(--primary);
-      color: #000;
-      box-shadow: 0 0 25px var(--primary);
-    }
+---
 
-    /* ===== UPDATES SECTION ===== */
-    #updates {
-      padding: 100px 20px;
-      background: var(--bg-mid);
-      text-align: center;
-    }
+## 🧑‍💻 About Me
 
-    #updates h2 {
-      font-size: 2.4rem;
-      color: var(--primary);
-      margin-bottom: 10px;
-    }
+Hey there! I’m **Mr. Zee**, an AMV creator passionate about transforming anime moments into cinematic stories.  
+Each project I make blends **emotion, rhythm, and visual storytelling** — giving every scene new life.
 
-    .update-box {
-      background: #111;
-      border-radius: 12px;
-      padding: 20px;
-      margin: 20px auto;
-      width: 90%;
-      max-width: 700px;
-      text-align: left;
-      box-shadow: 0 0 15px rgba(0, 191, 255, 0.2);
-    }
+> “Every frame should feel alive.”
 
-    .update-box h3 {
-      color: var(--primary);
-      margin-bottom: 5px;
-    }
+---
 
-    .update-box p {
-      color: var(--text-fade);
-      line-height: 1.6;
-    }
+## ⚙️ Tech Used
 
-    /* ===== PROJECTS ===== */
-    #projects {
-      background: #070707;
-      padding: 100px 20px 80px;
-      text-align: center;
-    }
+- **HTML5**
+- **CSS3**
+- **GitHub Pages (Hosting)**
 
-    #projects h2 {
-      font-size: 2.4rem;
-      color: var(--primary);
-      margin-bottom: 10px;
-    }
+---
 
-    .projects-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 30px;
-      margin-top: 40px;
-    }
+## 🧱 How to Use / Customize
 
-    .project-card {
-      background: #111;
-      border-radius: 12px;
-      width: 320px;
-      padding: 20px;
-      box-shadow: 0 0 15px rgba(0, 191, 255, 0.2);
-      transition: 0.3s;
-    }
-
-    .project-card:hover {
-      transform: translateY(-10px);
-      box-shadow: 0 0 25px rgba(0, 191, 255, 0.5);
-    }
-
-    .project-card h3 {
-      margin-top: 10px;
-      color: var(--primary);
-      font-size: 1.2rem;
-    }
-
-    .project-card .btn {
-      margin-top: 15px;
-      font-size: 0.9rem;
-    }
-
-    /* ===== ABOUT ===== */
-    #about {
-      background: #0a0a0a;
-      padding: 100px 20px;
-      text-align: center;
-    }
-
-    #about h2 {
-      font-size: 2.4rem;
-      color: var(--primary);
-      margin-bottom: 15px;
-    }
-
-    #about p {
-      max-width: 700px;
-      margin: 0 auto;
-      color: var(--text-fade);
-      line-height: 1.8;
-      font-size: 1.1rem;
-    }
-
-    #about img {
-      margin-top: 30px;
-      width: 160px;
-      height: 160px;
-      border-radius: 50%;
-      border: 3px solid var(--primary);
-      box-shadow: 0 0 20px rgba(0, 191, 255, 0.4);
-      object-fit: cover;
-    }
-
-    /* ===== CONTACT ===== */
-    #contact {
-      background: #070707;
-      padding: 100px 20px;
-      text-align: center;
-    }
-
-    #contact h2 {
-      color: var(--primary);
-      font-size: 2.4rem;
-      margin-bottom: 15px;
-    }
-
-    #contact p {
-      color: #ccc;
-      font-size: 1.1rem;
-    }
-
-    /* ===== FOOTER ===== */
-    footer {
-      background: #000;
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9rem;
-      color: #aaa;
-      border-top: 1px solid #111;
-    }
-
-    /* ===== ANIMATIONS ===== */
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(15px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    /* ===== RESPONSIVE ===== */
-    @media (max-width: 768px) {
-      #hero h1 { font-size: 2.2rem; }
-      .projects-container { flex-direction: column; align-items: center; }
-    }
-  </style>
-</head>
-<body>
-
-  <!-- ===== NAVBAR ===== -->
-  <nav>
-    <div class="logo">Mr. Zee Editz</div>
-    <ul>
-      <li><a href="#hero">Home</a></li>
-      <li><a href="#updates">Updates</a></li>
-      <li><a href="#projects">AMVs</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <!-- ===== HERO ===== -->
-  <section id="hero">
-    <h1>Welcome to Mr. Zee Editz</h1>
-    <p>Cinematic AMVs with emotion, rhythm & pure intensity.</p>
-    <a href="https://youtu.be/0nXw4jvAg5Q" target="_blank" class="btn">Watch My Latest</a>
-  </section>
-
-  <!-- ===== UPDATES SECTION ===== -->
-  <section id="updates">
-    <h2>Latest Announcements</h2>
-
-    <div class="update-box">
-      <h3>🔥 New AMV Dropping Soon!</h3>
-      <p>Stay tuned for my next cinematic AMV project featuring Demon Slayer x Gojo mix — dropping this weekend! Follow me on YouTube for premiere alerts.</p>
-    </div>
-
-    <div class="update-box">
-      <h3>⚙️ Site Revamp in Progress</h3>
-      <p>I'm currently upgrading this website to include behind-the-scenes tutorials and editor resources. Expect a sleek new design soon!</p>
-    </div>
-  </section>
-
-  <!-- ===== PROJECTS ===== -->
-  <section id="projects">
-    <h2>Featured AMVs</h2>
-    <div class="projects-container">
-
-      <div class="project-card">
-        <iframe width="100%" height="215" src="https://www.youtube.com/embed/0nXw4jvAg5Q" title="Mortals Funk AMV" frameborder="0" allowfullscreen></iframe>
-        <h3>Mortals Funk AMV</h3>
-        <a href="https://youtu.be/0nXw4jvAg5Q" target="_blank" class="btn">Watch on YouTube</a>
-      </div>
-
-      <div class="project-card">
-        <iframe width="100%" height="215" src="https://www.youtube.com/embed/HSfR5BdUqKU" title="Muzan Kibutsuji - Slay! AMV" frameborder="0" allowfullscreen></iframe>
-        <h3>Muzan Kibutsuji - Slay! AMV</h3>
-        <a href="https://youtu.be/HSfR5BdUqKU" target="_blank" class="btn">Watch on YouTube</a>
-      </div>
-
-      <div class="project-card">
-        <iframe width="100%" height="215" src="https://www.youtube.com/embed/11LHNC6OzjU" title="Muzan Kibutsuji - Eeyuh AMV" frameborder="0" allowfullscreen></iframe>
-        <h3>Muzan Kibutsuji - Eeyuh AMV</h3>
-        <a href="https://youtu.be/11LHNC6OzjU" target="_blank" class="btn">Watch on YouTube</a>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ===== ABOUT ===== -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I'm <b>Mr. Zee Editz</b> — an AMV creator who merges anime, sound, and emotion into cinematic storytelling.
-      Every edit I create is built on rhythm, emotion, and power. My goal? To make you *feel* every frame.
-    </p>
-    <img src="https://i.imgur.com/21da6af1a11272715f67c3d5ccac4941.jpg" alt="Mr. Zee Editz" />
-  </section>
-
-  <!-- ===== CONTACT ===== -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>⚙️ This section is currently <b>under maintenance</b>. Please check back soon.</p>
-  </section>
-
-  <!-- ===== FOOTER ===== -->
-  <footer>© 2025 Mr. Zee Editz. All rights reserved.</footer>
-
-</body>
-</html>
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/mrzeeeditz.github.io
